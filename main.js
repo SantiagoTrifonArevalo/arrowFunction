@@ -44,23 +44,11 @@ const sacandoLongitud = () => {
     nombre2: "Rubén",
     nombre3: "Tomás"
 };
-return nombre.keys(objeto).lenght;
+return Object.keys(objeto).length;
 }
 const longitud = sacandoLongitud();
 console.log(longitud);
 
-// const obtenerLongitud = () => {
-//     const objeto = {
-//       propiedad1: "valor1",
-//       propiedad2: "valor2",
-//       propiedad3: "valor3"
-//     };
-  
-//     return Object.keys(objeto).length;
-//   };
-  
-//   const longitud = obtenerLongitud();
-//   console.log(longitud);
 
 // Ejercicio.5
 // Dado este array:
